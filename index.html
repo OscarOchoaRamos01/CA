@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" href="/formulario.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="header__logo"></iconify-icon>Sueños de Mar</a>
+
+        <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+                <a href="" class="nav__perfil">
+                    <div class="nav__img">
+                        <img src="/Img/insignia.png" alt="">
+                    </div>
+
+                    <div>
+                        <span class="nav__name">Sueños de</span>
+                        <span class="nav__name">Mar</span>
+                    </div>
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="" class="nav__link active">Inicio</a></li>
+
+                        <li class="nav__item"><a href="" class="nav__link">Hospedajes</a></li>
+
+                        <li class="nav__item"><a href="" class="nav__link">Eventos</a></li>
+
+                        <li class="nav__item"><a href="" class="nav__link">Registrate</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!----FIN DE LA TABLA DE MENU----->
+
+    <div class="hero">
+
+    </div>
+    <div class="Seccion">
+        <div class="row">
+            <div class="contentWrapper">
+                <div class="content">
+                    <span class="textWrapper">
+                        <span></span>Sueños de Mar</span>
+                    </span>
+                    <h2>BIENBENIDOS</h2>
+                    <p>¡Bienvenido a bordo! Estamos emocionados de que estés aquí, y esperamos trabajar contigo. Sabemos
+                        que con tus habilidades y experiencia eres un gran activo para nuestro departamento. Si tienes
+                        alguna pregunta durante la primera semana, comunícate conmigo en cualquier momento.</p>
+                </div>
+            </div>
+            <div class="imgWrapper">
+                <img src="/hotel2.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="contact form slide-in">
+        <h3>Rellene sus datos.</h3>
+        <form id="contact-form" action="/submit-form" method="POST">
+            <div class="formBox">
+                <div class="row50">
+                    <div class="inputBox">
+                        <span>Nombres</span>
+                        <input type="text" id="nombres" name="nombres" placeholder="Nombres" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Apellidos</span>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+                    </div>
+                </div>
+                <div class="row50">
+                    <div class="inputBox">
+                        <span>Fecha de llegada</span>
+                        <input type="date" name="" id="">
+                    </div>
+                    <div class="inputBox">
+                        <span>Fecha de llegada</span>
+                        <input type="date" name="" id="">
+                    </div>
+                </div>
+                <div class="row50">
+                    <div class="inputBox">
+                        <span>Tipo de habitacion</span>
+                        <select name="select">
+                            <option value="value1">Individual</option>
+                            <option value="value2" selected>Doble</option>
+                            <option value="value3">Souite</option>
+                          </select>
+                    </div>
+                    <div class="inputBox">
+                        <span>Preferencia de cama</span>
+                        <label>
+                            <input type="radio" name="" value="grande"> Grande 
+                        </label>
+                        <label>
+                            <input type="radio" name="" value="Pequeña"> Pequeña
+                        </label>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="inputBox">
+                        <span>Consulta</span>
+                        <textarea id="consulta" name="consulta" placeholder="Escribe tu consulta aquí..."
+                            required></textarea>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="inputBox">
+                        <input type="submit" id="submit-button" value="Enviar">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+
+</html>
